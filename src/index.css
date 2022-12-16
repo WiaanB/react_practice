@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.2);
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.list-item {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item > a {
+  color: black;
+  text-decoration: none;
+}
+
+.list-item > a:hover {
+  cursor: pointer;
+}
+
+.list-item.home > a {
+  font-size: 32px;
+  margin-right:80vw;
+  user-select: none;
+}
