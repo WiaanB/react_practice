@@ -30,10 +30,34 @@
 
 .list-item > a:hover {
   cursor: pointer;
+  color: rgb(243, 105, 243);
+  scale: 1.1;
+  transition: 250ms;
 }
 
 .list-item.home > a {
   font-size: 32px;
   margin-right:80vw;
   user-select: none;
+}
+
+.list-item.home > a:hover {
+  color: black;
+  scale: 1;
+}
+
+/* Home Page */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.home > .image-banner > img {
+  margin-top: 10vh;
+  height: 500px;
+  width: 100vw;
+  object-fit: fill;
 }
